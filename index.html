@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jannat Fitness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-image: url('img/gym.jpg');
+        background-size: 1400px 700px;
+    }
+
+    .left {
+        /* border: 2px solid red; */
+        color: white;
+        display: inline-block;
+        position: absolute;
+        left: 23px;
+        top: 12px;
+    }
+
+    .left img {
+        width: 66px;
+        margin: 0px 23px;
+        border-radius: 45%;
+        border: 1px solid black;
+
+    }
+
+    .left div {
+        text-align: center;
+        font-family: 'Courgette', cursive;
+    }
+
+    .mid {
+        font-family: 'Archivo Black', sans-serif;
+        color: white;
+        display: block;
+        width: 700px;
+        margin: 12px auto;
+    }
+
+    .right {
+        color: white;
+        display: inline-block;
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+
+    .header {
+      
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        color: white;
+        padding: 20px 8px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: rgb(113, 209, 216);
+    }
+
+    .btn {
+        margin: 0px 15px;
+        background-color: black;
+        color: white;
+        padding: 6px 10px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        font-size: 12px;
+        cursor: pointer;
+        font-family: 'Archivo Black', sans-serif;
+     
+
+    }
+
+    .btn:hover {
+        color: antiquewhite;
+        background-color: rgb(100, 84, 84);
+    }
+
+    .container {
+        margin: 35px 825px;
+        padding: 55px;
+        width: 33%;
+        border-radius: 25px;
+
+    }
+
+    .formgroup input {
+        text-align: center;
+        display: block;
+        width: 350px;
+        padding: 4px 0px;
+        border: 2px solid rgb(243, 237, 237);
+        margin: 8px auto;
+        font-size: 15px;
+        border-radius: 8px;
+
+    }
+
+    h2 {
+        text-align: center;
+        color: rgb(26, 21, 21);
+        font-size: 33px;
+    }
+
+    .btn {
+        width: 125px;
+        margin: 20px auto;
+        display: inline-block;
+
+    }
+    .btns{
+        width: 100px;
+        margin: 25px auto;
+        display:block;
+        background-color: black;
+        border: 2px solid white;
+        color: white;
+        padding: 7px;
+        border-radius: 13px;
+        cursor: pointer;
+
+    }
+    .btns:hover{
+        color: antiquewhite;
+        background-color: rgb(100, 84, 84);
+    }
+
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo  -->
+        <div class="left">
+            <img src="img/logo.png" alt="">
+            <div class="jannat">Jannat Fitness</div>
+        </div>
+        <!-- mid box for navbar  -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="">Home</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Fitness calculator</a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- right box for botton  -->
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Join the best gym of delhi</h2>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your locality">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Phone No">
+            </div>
+            <button class="btns">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
